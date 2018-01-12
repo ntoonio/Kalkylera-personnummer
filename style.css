@@ -1,0 +1,25 @@
+#numbersInput {
+	font-size: 5vw;
+	text-align: center;
+}
+
+button {
+	margin-top: 0.3em;
+	font-size: 2em;
+}
+
+#calculation {
+	width: 90vw;
+	text-align: left;
+}
+
+p {
+	font-size: 2vw;
+}
+
+pre {
+	overflow: scroll;
+	tab-size: 4;
+	font-size: 2vw;
+	background-color: lightgray;
+}
