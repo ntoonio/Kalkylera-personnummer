@@ -3,6 +3,12 @@ function calculate() {
 
 	const nr = document.getElementById("numbersInput").value
 
+	if (nr.length != 9) {
+		alert("Indatan måste vara exakt 9 siffror lång")
+		document.getElementById("calculation").style.display = "none"
+		return
+	}
+
 	var nrOut = ""
 	iterate(function(i) {
 		nrOut += nr.charAt(i) + "\t"
