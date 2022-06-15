@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<center>
-			<input id="numbersInput" type="number" placeholder="Personnummer">
+			<input id="numbersInput" type="text" placeholder="Personnummer">
 			<br>
 			<button onclick="calculate()">Kalkylera</button>
 			<br>
@@ -19,6 +20,10 @@
 				<pre id="pre3"></pre>
 				<p>Konvertera den siffran från 10</p>
 				<pre id="pre4"></pre>
+
+				<!-- Hidden by default since this is an edge case -->
+				<p id="10left" hidden><i>x % 10</i> görs igen, detta har bara effekt om vi fick 10 i det här steget</p>
+
 				<p>Kvar har du din kontrollsiffra</p>
 				<pre id="pre5"></pre>
 			</div>

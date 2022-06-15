@@ -18,6 +18,7 @@ p {
 }
 
 pre {
+	padding: 10px;
 	overflow: scroll;
 	tab-size: 4;
 	font-size: 2vw;
