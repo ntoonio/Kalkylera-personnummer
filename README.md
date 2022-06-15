@@ -8,11 +8,11 @@ _640823-323X_
 
 Multiplicera varje nummer i personnummret med varannan 2 och 1
 
-	6	4	0	8	2	3	3	2	3	
-	*	*	*	*	*	*	*	*	*
-	2	1	2	1	2	1	2	1	2
-	=	=	=	=	=	=	=	=	=
-	12	4	0	8	4	3	6	2	6	
+	6	4	0	8	2	3	-	3	2	3	
+	*	*	*	*	*	*		*	*	*
+	2	1	2	1	2	1		2	1	2
+	=	=	=	=	=	=		=	=	=
+	12	4	0	8	4	3		6	2	6
 
 Summera siffrorna var för sig
 
